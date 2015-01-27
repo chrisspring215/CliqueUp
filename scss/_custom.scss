@@ -1,0 +1,127 @@
+body
+{
+	font-family: $clique-up-font-main;
+	background-color: $clique-up-blue;
+}
+
+h1
+{
+	font-size: 11vw;
+	line-height: 11vw;
+	margin: 0 0 5vw 0;
+	font-weight: 700;
+	color: $clique-up-white;
+}
+
+.button
+{
+	font-size: 8vw;
+	line-height: 8vw;
+	vertical-align: middle;
+}
+
+.global-navigation
+{
+	background-color: $clique-up-white;
+	padding: 3vw;
+	border-bottom: 1px solid $clique-up-lighter-grey;
+	font-size: 7vw;
+	line-height: 7vw;
+
+	.app-title
+	{
+		font-weight: 700;
+		font-variant: small-caps;
+	}
+
+	.global-nav-link
+	{
+		font-size: 4vw;
+		padding-left: 2vw;
+	}
+
+	a
+	{
+		color: $clique-up-blue;
+	}
+
+}
+
+.main-content-area
+{
+	margin: 0;
+	padding: 3vw;	
+
+	.login-screen
+	{
+		margin-top: 15vh;
+
+		.inpage-logo
+		{
+			color: $clique-up-white - 200;
+			font-weight: 700;
+			font-size: 16vw;
+			font-variant: small-caps;
+		}	
+	}
+
+	.profile-page
+	{
+
+		.profile-image
+		{
+			width: 48vw;
+		}
+
+		.user-name
+		{
+			font-weight: 500;
+			color: $clique-up-white;
+			font-size: 10vw;
+			float: left;
+			width: 48vw;
+		}
+
+		.profile-block
+		{
+			color: $clique-up-white;
+			border-bottom: .75vw solid $clique-up-white;	
+			padding-top: 4vw;
+			padding-bottom: 4vw;
+		}
+
+		.profile-block-title
+		{
+			font-size: 5vw;
+		}
+
+		.profile-block-data
+		{
+			float:right;
+
+			a
+			{
+				color: $clique-up-white;
+				border: .75vw solid $clique-up-white;
+				padding: 0vw 2vw .5vw 2vw;
+			}
+		}
+
+		span
+		{
+			display: block;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
